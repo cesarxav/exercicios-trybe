@@ -3,4 +3,5 @@ h1, p { text-align: center;
 }
 li:hover {
     background-color: rgb(230, 189, 137);
+    font-family: 'Fredoka One', cursive;
 }
