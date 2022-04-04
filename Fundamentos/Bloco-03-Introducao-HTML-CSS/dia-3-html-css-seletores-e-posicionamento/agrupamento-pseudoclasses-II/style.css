@@ -1,4 +1,18 @@
 div:hover{
-    border-style: dashed;
-    border-color: aqua;
-}
+    border-style:groove;
+    }
+    div:hover:nth-child(3){
+        border-color:yellow
+    }
+    div:hover:nth-child(4){
+        border-color: rgb(238, 119, 8);
+    }
+    div:hover:nth-child(5){
+        border-color: rgb(24, 5, 196);
+    }
+    div:hover:nth-child(6){
+        border-color: rgb(85, 47, 4);
+    }
+    div:hover:nth-child(7){
+        border-color: rgb(106, 240, 229);
+    }
