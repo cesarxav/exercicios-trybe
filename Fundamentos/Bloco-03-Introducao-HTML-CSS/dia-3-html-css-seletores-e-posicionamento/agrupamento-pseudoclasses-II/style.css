@@ -4,35 +4,22 @@ div:hover{
     div:hover:nth-child(3){
         border-color:yellow
     }
+
     div:hover:nth-child(4){
         border-color: rgb(238, 119, 8);
     }
+
     div:hover:nth-child(5){
         border-color: rgb(24, 5, 196);
     }
-    div:nth-child(5){
-        font-size: 3em;
-    }
+
     div:hover:nth-child(6){
         border-color: rgb(85, 47, 4);
     }
+
     div:hover:nth-child(7){
         border-color: rgb(106, 240, 229);
     }
-    div:nth-of-type(1) {
+    div:nth-of-type(odd) {
         color: rgb(42, 50, 165);
-    }
-    div:nth-of-type(2){
-        color: rgb(3, 94, 3)
-
-    }
-    div:nth-of-type(3){
-        color: red
-        
-    }
-    div:nth-of-type(4){
-        color: brown;
-    }
-    div:nth-of-type(5){
-        color: rgb(218, 44, 194);
-        }   
+        font-style: italic;
