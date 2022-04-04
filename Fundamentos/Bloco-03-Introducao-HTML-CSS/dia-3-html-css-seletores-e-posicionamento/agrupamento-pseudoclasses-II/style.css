@@ -10,6 +10,9 @@ div:hover{
     div:hover:nth-child(5){
         border-color: rgb(24, 5, 196);
     }
+    div:nth-child(5){
+        font-size: 3em;
+    }
     div:hover:nth-child(6){
         border-color: rgb(85, 47, 4);
     }
