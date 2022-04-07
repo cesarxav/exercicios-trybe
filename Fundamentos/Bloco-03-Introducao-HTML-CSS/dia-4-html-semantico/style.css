@@ -1,0 +1,15 @@
+h2 {
+  background-color: blue;
+}
+
+.menu {
+  display: inline-block;
+  background-color:rgb(190, 109, 109);
+  width: 400px;
+  text-align: center ;
+  margin-left: 10%;
+  font-size: 20px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
