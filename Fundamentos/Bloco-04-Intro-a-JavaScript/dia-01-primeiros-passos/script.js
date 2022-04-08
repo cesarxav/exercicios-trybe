@@ -1,12 +1,16 @@
-const a = 5
-const b = 7
-const c = 9
+const custoProduto = 5
+const valorDeVenda = 10
+let quantidade = 1000
 
-let par = false
+let custoComImposto = custoProduto * 1.2
+let lucro = (valorDeVenda - custoComImposto) * 1000
 
-if (a % 2 !== 0 || b % 2 !== 0 || c % 2 !== 0) {
-    par = true
-    console.log (par + ". Pelo menos um de seus números é ímpar!") 
+if (custoProduto <= 0 || valorDeVenda <= 0) {
+    console.log ("Erro nos valores de entrada")
+} else {
+    console.log ("A empresa obteve R$" + lucro + " de lucro com a venda de 1000 produtos")
 }
 
-    
+
+
+
