@@ -1,17 +1,10 @@
-const a = 21
-const b = 19
-const c = 12
+const valor = 9
 
-if (b > a && b > c) {
-    console.log ("B é maior que A e C Confira: ")
-} 
-else if (a > b && a > c) {
-    console.log ("A é maior que B e C. Confira: ")
-} else if (c > a && c > b) {
-    console.log ("C é maior que B e C. Confira: ")
+if (valor > 0) {
+    console.log ("O SEU NÚMERO É POSITIVO !")
 }
-
-console.log ("")
-console.log ("A é igual a: " + a)
-console.log ("B é igual a: " + b)
-console.log ("C é igual a: " + c)
+else if (valor < 0) {
+    console.log ("SEU NÚMERO É NEGATIVO !")
+} else {
+    console.log ("SEU NÚMERO É IGUAL A ZERO !")
+}
