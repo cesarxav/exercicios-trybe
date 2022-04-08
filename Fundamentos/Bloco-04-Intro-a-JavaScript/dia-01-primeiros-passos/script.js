@@ -1,31 +1,23 @@
-const peça = "BiSpO"
+let nota = 400
+if (nota > 100 || nota < 0) {
+    console.log ("Erro!")
+}
+else if (nota >= 90) {
+    console.log ("Sua nota foi: A")
+}
+else if (nota >= 80) {
+    console.log ("Sua nota foi: B")
+}
+else if (nota >= 70) {
+console.log ("Sua nota foi: C")
+}
+else if (nota >= 60) {
+console.log ("Sua nota foi: D")
+}
+else if (nota>= 50) {
+console.log ("Sua nota foi: E")
+} else {
+    console.log ("Sua nota foi: F")
+}
 
-switch (peça.toLowerCase()) {
-    case "rainha":
-        console.log ("Sua peça: " + peça + " --> Se move em rodas as direções")
-        break;
 
-    case "bispo":
-    console.log ("Sua peça: " + peça + " --> Anda na diagonal")
-        break;
-        
-    case "peão":
-    console.log ("Sua peça: " + peça + " --> Anda somente para frente")
-        break;
-
-    case "torre":
-    console.log ("Sua peça: " + peça + " --> Anda para os lados, para frente e para trás")
-        break;
-
-    case "rei":
-    console.log ("Sua peça: " + peça + " --> Anda uma casa em qualquer direção")
-        break;
-
-    case "cavalo" :
-    console.log ("Sua peça: " + peça + " --> Anda em L")
-        break;
-
-    default:
-    console.log ("Erro, peça inválida!")
-        break;
-};
