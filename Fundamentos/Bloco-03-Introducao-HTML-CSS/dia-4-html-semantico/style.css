@@ -1,15 +1,80 @@
+h1 {
+   text-align: center;
+   margin-top: 3%;
+   margin-bottom: 1%; 
+}
 h2 {
-  background-color: blue;
+  text-align: center;
+  font-size: 30px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
 }
 
 .menu {
   display: inline-block;
-  background-color:rgb(190, 109, 109);
+  background-color:rgb(17, 61, 87);
   width: 400px;
   text-align: center ;
   margin-left: 10%;
   font-size: 20px;
   margin-top: 1%;
   margin-bottom: 1%;
+  font-weight: 600;
+  color: rgb(18, 175, 175);
+}
+ 
+#nome-cientifico {
+  font-size: 20px;
+  text-align: center;
 }
 
+th, td {
+  border: dashed 1px rgb(7, 6, 6);
+  width: 200px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.tabela {
+  margin-left: 40%;
+}
+
+caption {
+  font-size: 2em;
+}
+
+.soco {
+  display: block;
+  text-align: justify;
+  margin-left: 2%;
+  font-size: 30px;
+}
+
+#primeira-imagem {
+  text-align: center;
+}
+
+.olhos {
+  display: block;
+  text-align: justify;
+  margin-left: 2%;
+  font-size: 30px;
+}
+
+#segunda-imagem {
+  text-align: center;
+}
+
+.anatomia {
+  display: block;
+  text-align: justify;
+  margin-left: 2%;
+  font-size: 30px;
+}
+
+#terceira-imagem {
+  text-align: center;
+}
