@@ -1,15 +1,12 @@
-//Maneira que eu fiz
-let numbers = [200, 105, 9, 3, 19, 70, 8, 100, 2, 35, 27, 13];
-let quantosImpares = 0
+// baseado no exercício de encontrar o maior número !
+let numbers = [1, 200, 105, 9, 3, 19, 70, 8, 100, 2, 35, 27, 13];
+let menorNumero = numbers[0]
 
-    for (i = 0; i < numbers.length; i += 1) {
-        if (numbers[i] % 2 !== 0) {
-        quantosImpares += 1 
+    for (i = 1; i < numbers.length; i += 1) {
+        if (numbers[i] < menorNumero) {
+            menorNumero = numbers[i]
         }
-    }
 
-    if (quantosImpares == 0) {
-        console.log ("Não há numeros ímpares")
-    } else {
-        console.log ("São " + quantosImpares + " números ímpares")
-    }
+       }
+       console.log (menorNumero)
+    
